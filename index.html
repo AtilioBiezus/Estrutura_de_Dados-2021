@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pilha - UNISEP 2021</title>
+
+        <script src="scripts.js"></script>
+
+        <link href="styles.css" rel="stylesheet">
+
+    </head>
+
+    <!-- Corpo do site-->
+    <body>
+
+        <section>
+
+            <header>
+                <h1>Pilha</h1>
+                <h3>Desenvolvido por Sistemas de informação UNISEP</h3>
+            </header>
+
+            <div id="control">
+
+                <div id="control-input">
+
+                    <input type="number" id="valorAddPilha" 
+                    placeholder="Digite um valor !"/>
+
+                </div>
+
+                <div id="control-button">
+
+                    <button type="button" class="btnPush"
+                        onclick="pilha.push()">
+                        Push
+                    </button>
+                    <button type="button" class="btnPop"
+                    onclick="pilha.pop()">
+                        Pop
+                    </button>  
+
+                    <button type="button" class="btnClear"
+                    onclick="pilha.clean()">
+                        Clean
+                    </button>
+                    
+                </div>
+
+            </div>
+
+            <article class="card" id="visualization">
+
+                <header>
+                    <h3>Visualizacão da pilha</h3>
+                </header>
+
+                <section class="bodyVisualization">
+
+                    <div id="pilha">
+                        <!--Conteudo gerado dinamicamente-->
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <footer>
+                    <p>Tamanho : <span id="tamanhoPilha"> 0 </span></p>
+                    <p>Objeto Topo : <span id="topoPilha"> 0 </span></p>
+                </footer>
+
+
+            </article>
+
+            <article class="card" id="info">
+                <header>
+                    <h3>Informações</h3>
+                </header>
+
+                <section class="bodyInfo">
+
+                    <ul>
+                        <li>PILHA ou HEAP</li>
+
+                        <li>É  uma estrutura de dados simples.</li>
+
+                        <li>Principal ponto de uma pilha é que todo o acesso a seus 
+                        elementos são feitos através do seu topo.</li>
+
+                        <li>Pilha ou FILO (First-In, Last-Out) significa o primeiro que entra é o último que sai.</li>
+
+                        <li>Uma pilha é uma estrutura de dados que contém uma lista de elementos</li>
+
+                        <li>Uma pilha possui duas operações principais que ocorrem apenas no topo da pilha, que são push e pop.</li>
+                    </ul>
+
+                </section>
+            </article>
+
+            <article class="card" id="credits">
+                <header>
+                    <h3>Créditos</h3>
+                </header>
+
+            <section>
+                <h2>Criado por:</h2>                     
+            </section>
+            <section class="bodyCredits">
+                <p class="colorText">Atilio, Santola, Garbin, Glademir...</p> 
+            </section>
+            <br>        
+            <section class="bodyORG">
+                <p class="colorOrg">Sistemas de informação - UNISEP 2021</p>
+            </section>
+            </article>
+        </section>
+    </body>
+</html>
